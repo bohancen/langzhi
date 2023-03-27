@@ -1,1 +1,1 @@
-https://bohancen.github.io/langzhi/git
+https://bohancen.github.io/langzhi/
