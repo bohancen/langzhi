@@ -132,7 +132,6 @@ function start(num) {
     }
 
     function render() {
-        console.log(white_count)
         document.querySelector('#white_txt').innerHTML = white_count
         document.querySelector('#black_txt').innerHTML = black_count
         let box_item = box.querySelectorAll('.item')
@@ -178,9 +177,8 @@ function start(num) {
 let start_btn = document.querySelector('#start_btn')
 start_btn.onclick = function () {
     let input = document.querySelector('#num_input')
-    let num = input.value || 9
+    let num = parseInt(input.value || 8)
     input.value = num
-
     start(num)
 }
 start_btn.click()
